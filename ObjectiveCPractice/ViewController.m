@@ -18,7 +18,7 @@
     [super viewDidLoad];
     
     // Create the label and set its frame
-    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 200, 50) ];
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(50, 50, 200, 50) ];
     
     // Set the text on the label
     label.text = @"Hello world! * 2";
