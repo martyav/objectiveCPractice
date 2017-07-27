@@ -2,8 +2,8 @@
 //  ViewController.m
 //  ObjectiveCPractice
 //
-//  Created by Marty's  on 07/26/17.
-//  Copyright © 2017 Marty's . All rights reserved.
+//  Created by Marty Hernandez Avedon  on 07/26/17.
+//  Copyright © 2017 Marty Hernandez Avedon. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -16,7 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    // Create the label and set its frame
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 200, 50) ];
+    
+    // Set the text on the label
+    label.text = @"Hello world! * 2";
+    
+    // Add the label to the view
+    [self.view addSubview:label];
 }
 
 
