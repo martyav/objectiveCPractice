@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *textfield;
 @property (weak, nonatomic) IBOutlet UIButton *button;
 
+- (void)touchesBegan: (NSSet *)touches withEvent:(UIEvent *)event;
 
 @end
 
